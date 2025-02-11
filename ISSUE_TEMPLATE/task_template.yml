@@ -1,0 +1,49 @@
+name: Feature Request / Task
+description: Use this template to track project updates, new features, or improvements.
+title: "[Feature]: "
+labels: ["enhancement", "project-update"]
+assignees: ["your-github-username"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "## 🎯 Goal\nDescribe the goal of this task."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "📌 Description"
+      description: "What needs to be done? Provide details or links."
+      placeholder: "e.g., Add a new project section with X design..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "✅ Tasks"
+      description: "Break the work into smaller tasks."
+      options:
+        - label: "Design layout"
+        - label: "Code implementation"
+        - label: "Testing & validation"
+        - label: "Deploy changes"
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "🔥 Priority"
+      description: "How urgent is this task?"
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: "📚 Resources / Links"
+      description: "Add relevant links or references."
+      placeholder: "e.g., [Figma Design](https://figma.com/...)"
