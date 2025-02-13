@@ -1,7 +1,7 @@
 name: Feature Request / Task
 description: Use this template to track project updates, new features, or improvements.
 title: "[Feature]: "
-labels: ["enhancement", "project-update"]
+labels: ["confirmed", "enhancement", "in-progress", "project-update"]
 assignees: ["your-github-username"]
 
 body:
