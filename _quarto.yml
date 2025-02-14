@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "ForestCloud"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: notebooks/index.qmd
+        text: Notebooks
+      - href: data/index.qmd
+        text: Data
+      - href: visuals/index.qmd
+        text: Visuals
+  page-footer: 
+    left: "© 2024 ForestCloud | Built with Quarto"
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    number-sections: true

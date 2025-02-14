@@ -1,0 +1,20 @@
+---
+title: "ForestCloud"
+format: html
+toc: true
+number-sections: true
+---
+
+# Welcome {.unnumbered}
+
+
+This project presents a stratification algorithm applied to aerial 3D point clouds. From a forest point cloud, it detects canopy layers based on local point density profiles.
+
+It is a replication of the algorithm presented in:
+
+> **Hamraz et al. (2017)**  
+> *[Vertical stratification of forest canopy for segmentation of understory trees within small-footprint airborne LiDAR point clouds](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302708){target="_blank"}*.    
+> ISPRS Journal of Photogrammetry and Remote Sensing, 130, pp. 385–392.
+
+This project was published as an **M.Sc. Thesis** by **Kehlert (2024)**,, accessible via:  
+[UNIGIS Thesis Repository](https://unigis.at/club-unigis/abschlussarbeiten/){target="_blank"}

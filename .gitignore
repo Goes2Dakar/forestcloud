@@ -1,0 +1,15 @@
+# R-specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto-generated files (if you use `_site/` or `_publish/`)
+_site/
+_publish/
+
+# Git-related
+.DS_Store  # MacOS hidden files
+Thumbs.db  # Windows hidden files
+
+/.quarto/
